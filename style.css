@@ -1,0 +1,85 @@
+/* 
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800
+
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: hsl(217, 19%, 15%);
+}
+main {
+	height: calc(100vh - 20px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	font-family: 'Manrope', sans-serif;
+	background-color: hsl(217, 19%, 25%);
+	text-align: center;
+	border-radius: 10px;
+	margin: 12px;
+	height: fit-content;
+	max-width: 35rem;
+}
+.advice-id {
+	color: hsl(150, 100%, 66%);
+	font-size: 0.75rem;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	margin: 3rem 0 2rem;
+}
+.quote {
+	color: white;
+	font-size: 1.75rem;
+	margin: 0 16px;
+	line-height: 1.4;
+}
+.divider {
+	margin-top: 2rem;
+}
+.btn {
+	display: block;
+	background-color: hsl(150, 100%, 66%);
+	margin: 0 auto;
+	border: none;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	bottom: -30px;
+	cursor: pointer;
+}
+.btn:hover {
+	box-shadow: 0 0 50px hsl(150, 100%, 66%);
+	transition: all 0.2s ease-out;
+}
+.btn img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

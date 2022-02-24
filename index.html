@@ -14,11 +14,21 @@
 
 		<title>Frontend Mentor | Advice generator app</title>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+
 		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 		<style>
 			.attribution {
 				font-size: 11px;
 				text-align: center;
+				height: 20px;
+				color: white;
+				font-family: 'Manrope', sans-serif;
 			}
 			.attribution a {
 				color: hsl(228, 45%, 44%);
@@ -32,16 +42,16 @@
 				<h1 class="advice-id">Advice #000<!-- Advice ID goes here --></h1>
 
 				<p class="quote">
-					"<!-- Advice text goes here -->Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Dolorem at distinctio minus ipsa, neque quae! "
+					"<!-- Advice text goes here -->It is easy to sit up and take notice, what's
+					difficult is getting up and taking action."
 				</p>
 				<picture>
 					<source
-						media="(min-width: 400px)"
+						media="(min-width: 500px)"
 						srcset="images/pattern-divider-desktop.svg"
 						alt=""
 					/>
-					<img src="images/pattern-divider-mobile.svg" alt="" />
+					<img src="images/pattern-divider-mobile.svg" alt="" class="divider" />
 				</picture>
 				<button class="btn">
 					<img src="images/icon-dice.svg" alt="" />
